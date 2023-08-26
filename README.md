@@ -1,7 +1,7 @@
 <h1>💻<a href="URL DO SITE EM PRODUÇÃO"> Site Carine Freitas </a></h1>
 <h2> Descrição </h2>
 
-<p>Aplicação web criada para exibição do trabalho da Fsioterapeuta Carine Freitas. Desenvolvida com as tecnologias:</p>
+<p>Aplicação web criada para exibição do trabalho da Fisioterapeuta Carine Freitas. Desenvolvida com as tecnologias:</p>
 <div style="display: inline_block">
 
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
