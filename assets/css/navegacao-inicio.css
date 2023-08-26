@@ -73,15 +73,17 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 .apresentacao {
     max-width: 741px;
     color: white;
+
 }
 
 .descricao {
-    font-size: 25px;
+    font-size: 20px;
     grid-area: descricao;
 }
 
