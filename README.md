@@ -1,4 +1,4 @@
-<h1>💻<a href="URL DO SITE EM PRODUÇÃO"> Site Carine Freitas </a></h1>
+<h1>💻<a href="https://carine-freitas.vercel.app/"> Site Carine Freitas </a></h1>
 <h2> Descrição </h2>
 
 <p>Aplicação web criada para exibição do trabalho da Fisioterapeuta Carine Freitas. Desenvolvida com as tecnologias:</p>
