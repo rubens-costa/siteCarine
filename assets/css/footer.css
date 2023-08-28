@@ -12,6 +12,7 @@
 .footer {
     width: 100%;
     background-color: #4a554b;
+
 }
 
 .footer-conteiner {
@@ -20,9 +21,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
-.contato-creditos {
+.contato {
+    color: white;
+    font-family: 'Quando', serif;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.creditos {
     color: white;
     font-family: 'Quando', serif;
     font-size: 15px;
@@ -37,12 +46,14 @@
 @media (max-width:1200px) {
     .contato-creditos {
         text-align: center;
+
     }
 
     .footer-conteiner {
         display: flex;
         flex-direction: column;
         padding-bottom: 10px;
+
     }
 
 }
@@ -57,10 +68,12 @@
     background-repeat: no-repeat;
     cursor: pointer;
     transition: 0.7s;
+
 }
 
 .links:hover {
     transform: rotate(-360deg);
+
 
 }
 
