@@ -1,10 +1,10 @@
 const skills = document.querySelectorAll('.skill-box');
 const descricao = document.querySelector('.texto-descricao');
 const sobreSkill = [
-    '<p>Cypress</p> <br> <p>É uma ferramenta de teste de front-end para aplicativos da web.</p> <br>',
-    '<p>JavaScript</p> <br> <p>É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p> <br>',
-    '<p>Git</p> <br> <p>É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.</p> <br>',
-    '<p>Github</p> <br> <p>É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. </p> <br>'
+    '<p>Palestra 06/05/2021</p> <br> <p>PubMed: Busca avançada de evidências científicas – Para Grupo de Estudo e Pesquisa em Fisiologia e Envelhecimento (GEPEFE) da Universidade Federal do Vale do São Francisco (UNIVASF).</p> <br>',
+    '<p>Palestra 11/05/2023</p> <br> <p>Instrumentos para Avaliação Multidimensional do Adulto Idoso – Semana Acadêmica UNIP.</p> <br>',
+    '<p>Curso 14/07/2023</p> <br> <p>Pesquisa em bases de dados em saúde (Em parceria com Iara Leal – Organização LABIAFH UPE).</p> <br>',
+    '<p>Curso 21/07/2023</p> <br> <p>Pesquisa em bases de dados em saúde (Em parceria com Iara Leal – Organização LABIAFH UPE).</p> <br>',
 ]
 const dataInicio = [
     (new Date(2021, 10, 1)).getTime(), // 0
