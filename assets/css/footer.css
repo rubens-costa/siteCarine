@@ -48,7 +48,8 @@
 }
 
 .links1,
-.links2 {
+.links2,
+.links3 {
     height: 52px;
     width: 52px;
     background-size: contain;
@@ -64,11 +65,15 @@
 }
 
 .links1 {
-    background-image: url(../img/githubff2.svg);
+    background-image: url(../img/orcidff2.svg);
 }
 
 .links2 {
     background-image: url(../img/linkedinff2.svg);
+}
+
+.links3 {
+    background-image: url(../img/researchgateff2.svg);
 }
 
 .transparente {

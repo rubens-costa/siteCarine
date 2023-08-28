@@ -2,23 +2,18 @@
     background-color: #4a554b;
 }
 
-.portfolio {
+.congresso-radiologia {
     background-image: url('../img/apresentacaoProjeto1.png');
     background-size: cover;
 }
 
-.contador {
+.upe {
     background-image: url('../img/apresentacaoProjeto2.png');
     background-size: cover;
 }
 
-.automacao {
+.gerontovale {
     background-image: url('../img/apresentacaoProjeto3.png');
-    background-size: cover;
-}
-
-.tarefeiro {
-    background-image: url('../img/apresentacaoProjeto4.png');
     background-size: cover;
 }
 
