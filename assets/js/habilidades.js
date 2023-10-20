@@ -2,10 +2,10 @@ const skills = document.querySelectorAll('.skill-box');
 const descricao = document.querySelector('#divDescricao');
 const sobreSkill = [
 
-    '<p>PALESTRA 06/05/2021</p> <p>PubMed: Busca avançada de evidências científicas – Para Grupo de Estudo e Pesquisa em Fisiologia e Envelhecimento (GEPEFE) da UNIVASF.</p> <br>',
-    '<p>PALESTRA 11/05/2023</p> <p>Instrumentos para Avaliação Multidimensional do Adulto Idoso – Semana Acadêmica UNIP.</p> <br>',
-    '<p>CURSO 14/07/2023</p> <p>Pesquisa em bases de dados em saúde (Em parceria com Iara Leal – Organização LABIAFH UPE).</p> <br>',
-    '<p>CURSO 21/07/2023</p> <p>Pesquisa em bases de dados em saúde (Em parceria com Iara Leal – Organização LABIAFH UPE).</p> <br>',
+    '<p>PALESTRA 06/05/2021</p> <br> <p>PubMed: Busca avançada de evidências científicas – Para Grupo de Estudo e Pesquisa em Fisiologia e Envelhecimento (GEPEFE) da UNIVASF.</p> <br>',
+    '<p>PALESTRA 11/05/2023</p> <br> <p>Instrumentos para Avaliação Multidimensional do Adulto Idoso – Semana Acadêmica UNIP.</p> <br>',
+    '<p>CURSO 14/07/2023</p> <br> <p>Pesquisa em bases de dados em saúde (Em parceria com Iara Leal – Organização LABIAFH UPE).</p> <br>',
+    '<p>CURSO 21/07/2023</p> <br> <p>Pesquisa em bases de dados em saúde (Em parceria com Iara Leal – Organização LABIAFH UPE).</p> <br>',
 ]
 const dataInicio = [
     (new Date(2021, 10, 1)).getTime(), // 0
@@ -29,7 +29,7 @@ skills.forEach((elemento, index) => {
         descricao.innerHTML = `<p>${sobreSkill[index1]} </p>`;
     })
     elemento.addEventListener('mouseout', (evento, elemento,) => {
-        descricao.innerHTML = '<p class="texto-descricao">Passe o mouse por cima de algum destaque para ler a descrição</p>';
+        descricao.innerHTML = '<p class="texto-descricao">Passe o mouse por cima de algum destaque para ler a descrição!</p>';
     })
 });
 
