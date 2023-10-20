@@ -1,6 +1,7 @@
 const skills = document.querySelectorAll('.skill-box');
-const descricao = document.querySelector('.texto-descricao');
+const descricao = document.querySelector('#divDescricao');
 const sobreSkill = [
+
     '<p>Palestra 06/05/2021</p> <br> <p>PubMed: Busca avançada de evidências científicas – Para Grupo de Estudo e Pesquisa em Fisiologia e Envelhecimento (GEPEFE) da Universidade Federal do Vale do São Francisco (UNIVASF).</p> <br>',
     '<p>Palestra 11/05/2023</p> <br> <p>Instrumentos para Avaliação Multidimensional do Adulto Idoso – Semana Acadêmica UNIP.</p> <br>',
     '<p>Curso 14/07/2023</p> <br> <p>Pesquisa em bases de dados em saúde (Em parceria com Iara Leal – Organização LABIAFH UPE).</p> <br>',
@@ -28,7 +29,7 @@ skills.forEach((elemento, index) => {
         descricao.innerHTML = `<p>${sobreSkill[index1]} </p>`;
     })
     elemento.addEventListener('mouseout', (evento, elemento,) => {
-        descricao.innerHTML = 'Passe o mouse por cima de algum destaque para ler a descrição';
+        descricao.innerHTML = '<p class="texto-descricao">Passe o mouse por cima de algum destaque para ler a descrição</p>';
     })
 });
 
