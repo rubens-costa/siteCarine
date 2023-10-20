@@ -1,4 +1,4 @@
-#habilidades {
+#cursos {
     background-color: #5d685e;
 }
 
@@ -59,7 +59,7 @@
         height: 260px;
     }
 
-    #habilidades {
+    #cursos {
         display: flex;
         justify-content: center;
     }

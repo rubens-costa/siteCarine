@@ -1,4 +1,4 @@
-#projetos {
+#premios {
     background-color: #4a554b;
 }
 
@@ -111,7 +111,7 @@ button:hover {
         flex-direction: column;
     }
 
-    #projetos {
+    #premios {
         display: flex;
         justify-content: center;
     }
