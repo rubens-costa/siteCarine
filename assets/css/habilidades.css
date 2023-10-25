@@ -1,5 +1,6 @@
 #cursos {
     background-color: #5d685e;
+
 }
 
 .habilidades-pd {
@@ -51,6 +52,12 @@
     font-family: 'Quando', serif;
     font-size: 20px;
     max-width: 40%;
+}
+
+@media (min-width:1200px) {
+    #cursos {
+        height: 500px;
+    }
 }
 
 @media (max-width:1200px) {
